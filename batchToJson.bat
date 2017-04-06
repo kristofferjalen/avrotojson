@@ -2,7 +2,7 @@
 
 setlocal EnableDelayedExpansion
 
-for /R %%A in ("*.") do (
+for /R %%A in ("*.json") do (
 
 	set size=%%~zA
 	
